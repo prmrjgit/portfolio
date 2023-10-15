@@ -33,9 +33,21 @@
     }
     }
 
+
+    .img-fluid {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+    }
+
+    .img-fluid:hover {
+    transform: scale(1.1); /* Ajuste o valor conforme necessário para controlar o efeito */
+    }
+
     </style>
 </head>
 <body>
+    
     <header class="bg-dark  text-white text-center py-5">
         <h1>Paulo Roberto Melo Ribeiro Júnior</h1>
         <p>SRE / Devops</p>        
@@ -63,10 +75,11 @@
             </div>
             <div class="col-md-4 mb-4">
                 <h2>Meus Projetos</h2>
+                <script src="script.js"></script>
                 <div class="card">
                     <div class="container">
                         <img src="eventos1.jpeg" class="img-fluid" data-toggle="modal" data-target="#eventosModal">
-                    </div>
+                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Agenda de Eventos</h5>
                         <p class="card-text">Sistema que permite o agendamento dos eventos externos e internos para utilização do auditório da Casa Civil do Maranhão usando JavaScript, PHP e MySql.</p>
