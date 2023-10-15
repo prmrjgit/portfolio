@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Portfólio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   
+    <link rel= "stylesheet" href= "https://maxcdn.Bootstrapcdn.com/Bootstrap/3.3.2/css/Bootstrap-theme.min.css" >
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>     
+
+    .message {
+    width: 260px;
+    animation: digitando 3s steps(50), blink .4s infinite alternate;   
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 18px;    
+    }
+    @keyframes digitando {
+    from {
+        width: 0
+    }
+    }
+    @keyframes blink {
+    40% {
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+    }
+
+    </style>
+</head>
+<body>
+    <header class="bg-dark  text-white text-center py-5">
+        <h1>Paulo Roberto Melo Ribeiro Júnior</h1>
+        <p>SRE / Devops</p>        
+    </header>
+    <p class="message">
+        Cloud Computing / AWS / Azure
+    </p>
+    
+    <section class="container my-5">
+        <h2 style="box-shadow: 2px 2px 2px #888888;">Sobre mim</h2>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                
+                <div class="card">                    
+                    <img src="eu.jpeg" style="border-radius: 5px; box-shadow: 5px 5px 5px #888888;" class="card-img-top" alt="Sobre mim">
+                    <div class="card-body">
+                             <p class="card-text">Meu início com a Tecnologia da Informação foi ótimo,
+                             tive boas oportunidades e trabalhei em empresas que me ajudaram a 
+                             conquistar melhores posições no ambiente de trabalho. 
+                             Apaixonado por Cloud Computing, IaaS, AWS, Azure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2>Meus Projetos</h2>
+                <div class="card">
+                    <div class="container">
+                        <img src="eventos1.jpeg" class="img-fluid" data-toggle="modal" data-target="#eventosModal">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Agenda de Eventos</h5>
+                        <p class="card-text">Sistema que permite o agendamento dos eventos externos e internos para utilização do auditório da Casa Civil do Maranhão usando JavaScript, PHP e MySql.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="eventosModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Agenda de Eventos</h5>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="eventos1.jpeg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <br><br>
+                <div class="card">
+                    <div class="container">
+                        <img src="nutriguide.jpg" class="img-fluid" data-toggle="modal" data-target="#nutriguideModal">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Informações Nutricionais</h5>
+                        <p class="card-text">Página estática com informações de como manter a alimentação saudável, criada apenas para ter noção de como trabalhar com Python.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="nutriguideModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class "modal-header">
+                            <h5 class="modal-title">Nutriguide</h5>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="nutriguide.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Contatos e Repositórios:</p>
+        <a>paulomelo.cloud@gmail.com</a>
+        <div>
+            <a href="https://www.linkedin.com/in/paulorobertomrjunior/" target="_blank" class="text-white mx-2">
+                Linkedin<i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/prmrjgit" target="_blank" class="text-white mx-2">
+               Github <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+   
+   
+    
+</body>    
